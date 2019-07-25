@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="64464" started-at="2019-07-25T17:06:41Z" finished-at="2019-07-25T17:07:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="64464" started-at="2019-07-25T17:06:41Z" finished-at="2019-07-25T17:07:45Z">
+      <class name="NewSdfc.phases.phase1Test">
+        <test-method status="PASS" signature="TC2_loginError()[pri:1, instance:NewSdfc.phases.phase1Test@64d2d351]" name="TC2_loginError" duration-ms="30129" started-at="2019-07-25T17:06:41Z" finished-at="2019-07-25T17:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_loginError -->
+        <test-method status="PASS" signature="TC1_login()[pri:2, instance:NewSdfc.phases.phase1Test@64d2d351]" name="TC1_login" duration-ms="12206" started-at="2019-07-25T17:07:11Z" finished-at="2019-07-25T17:07:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_login -->
+        <test-method status="PASS" signature="TC3_CheckRememberme()[pri:3, instance:NewSdfc.phases.phase1Test@64d2d351]" name="TC3_CheckRememberme" duration-ms="21544" started-at="2019-07-25T17:07:23Z" finished-at="2019-07-25T17:07:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3_CheckRememberme -->
+        <test-method status="PASS" signature="logger()[pri:0, instance:NewSdfc.phases.phase1Test@64d2d351]" name="logger" is-config="true" duration-ms="550" started-at="2019-07-25T17:07:44Z" finished-at="2019-07-25T17:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logger -->
+      </class> <!-- NewSdfc.phases.phase1Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

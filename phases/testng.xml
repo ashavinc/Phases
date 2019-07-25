@@ -1,0 +1,8 @@
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ <suite name="sfdcsuite">
+ <test name="testngTest">
+ <classes>
+ <class name="NewSdfc.phases.phase1Test" />
+ </classes>
+ </test>
+</suite>
