@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="sfdcsuite" duration-ms="96383" started-at="2019-08-07T07:40:20Z" finished-at="2019-08-07T07:41:56Z">
+    <groups>
+    </groups>
+    <test name="testngTest" duration-ms="96383" started-at="2019-08-07T07:40:20Z" finished-at="2019-08-07T07:41:56Z">
+      <class name="NewSdfc.phases.phase1Test">
+        <test-method status="PASS" signature="TC2_loginError()[pri:1, instance:NewSdfc.phases.phase1Test@134593bf]" name="TC2_loginError" duration-ms="22739" started-at="2019-08-07T07:40:20Z" finished-at="2019-08-07T07:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_loginError -->
+        <test-method status="PASS" signature="TC4B_loginError()[pri:2, instance:NewSdfc.phases.phase1Test@134593bf]" name="TC4B_loginError" duration-ms="28121" started-at="2019-08-07T07:40:43Z" finished-at="2019-08-07T07:41:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4B_loginError -->
+        <test-method status="PASS" signature="TC1_login()[pri:3, instance:NewSdfc.phases.phase1Test@134593bf]" name="TC1_login" duration-ms="15474" started-at="2019-08-07T07:41:11Z" finished-at="2019-08-07T07:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_login -->
+        <test-method status="PASS" signature="TC3_CheckRememberme()[pri:4, instance:NewSdfc.phases.phase1Test@134593bf]" name="TC3_CheckRememberme" duration-ms="29267" started-at="2019-08-07T07:41:26Z" finished-at="2019-08-07T07:41:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3_CheckRememberme -->
+        <test-method status="PASS" signature="logger()[pri:0, instance:NewSdfc.phases.phase1Test@134593bf]" name="logger" is-config="true" duration-ms="733" started-at="2019-08-07T07:41:55Z" finished-at="2019-08-07T07:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logger -->
+      </class> <!-- NewSdfc.phases.phase1Test -->
+    </test> <!-- testngTest -->
+  </suite> <!-- sfdcsuite -->
+</testng-results>

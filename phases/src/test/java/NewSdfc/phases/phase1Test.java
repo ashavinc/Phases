@@ -56,11 +56,26 @@ public class phase1Test extends reusableFunctions {
 		clickObj(login, "Login");
 		System.out.println("TC2_loginError is completed");
 		driver.close();
+	}
 
+		@Test (priority=2)
+		public static void TC4B_loginError() throws IOException, InterruptedException{
+			CreateTestScriptReport("TC4B_loginError");
+			launchUrl();
+			Thread.sleep(3000);
+			WebElement username=driver.findElement(By.id("username"));
+			enterText(username,"marydeena@force.com","UserName");
+			WebElement password=driver.findElement(By.id("password"));
+			password.clear();
+			enterText(password,"abc123","Password");
+			WebElement login=driver.findElement(By.id("Login"));
+			clickObj(login, "Login");
+			System.out.println("TC4B is completed");
+			driver.close();
 
 	}
-	@Test (priority=2)
-	public static void TC1_login() throws IOException, InterruptedException{
+	@Test (priority=3)
+	public static void TC1_login() throws IOException, InterruptedException {
 		CreateTestScriptReport("TC1_login");
 		launchUrl();
 		WebElement username=driver.findElement(By.id("username"));
@@ -77,7 +92,7 @@ public class phase1Test extends reusableFunctions {
 
 	}
 
-	@Test (priority=3)
+	@Test (priority=4)
 	public static void TC3_CheckRememberme() throws IOException, InterruptedException{
 		CreateTestScriptReport("TC3_CheckRememberme");
 		launchUrl();
