@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.Phase2.SfdcTestCases.Phase2RemainingTestcasesTest">
+        <methods>
+          <include name="tc_06"/>
+          <include name="logger"/>
+          <include name="tc_07"/>
+        </methods>
+      </class> <!-- com.Phase2.SfdcTestCases.Phase2RemainingTestcasesTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
